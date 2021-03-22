@@ -3,19 +3,26 @@ body {
   background-size: cover;
 }
 
-h1,
-h2,
-h3 {
+h1 {
   font-family: Arnoldboecklin, fantasy;
   color: white;
 }
 
 h2 {
+  font-family: Arnoldboecklin, fantasy;
   font-size: 35px;
   text-align: center;
+  color: antiquewhite;
 }
 
 h3 {
+  font-family: Arnoldboecklin, fantasy;
   font-size: 30px;
   text-align: right;
+  color: blanchedalmond;
 }
+git add style.css
+git add script.js
+git add index.html
+git commit -m "Updated"
+git push
