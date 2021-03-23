@@ -5,19 +5,39 @@ body {
 
 h1 {
   font-family: "Pacifico", cursive;
-  color: white;
+  font-size: 40px;
+  color: #fff;
+  border-bottom: 3px solid purple;
+  display: inline;
 }
 
 h2 {
   font-family: "Pacifico", cursive;
-  font-size: 35px;
-  text-align: center;
-  color: antiquewhite;
+  font-size: 40px;
+  /* text-align: center; */
+  color: #fff;
+  align-self: baseline;
+  border-style: double;
+  display: inline-block;
 }
 
 h3 {
   font-family: "Pacifico", cursive;
-  font-size: 30px;
-  text-align: right;
-  color: blanchedalmond;
+  font-size: 40px;
+  text-align: left;
+  color: #fff;
+  border-color: rgb(66, 65, 65);
+  border-style: ridge;
+  background-color: rgb(99, 50, 99);
+}
+img {
+  width: 400px;
+  margin-top: 3%;
+  border-style: solid;
+  border-color: white;
+}
+
+#image {
+  width: 400px;
+  display: inline-block;
 }
